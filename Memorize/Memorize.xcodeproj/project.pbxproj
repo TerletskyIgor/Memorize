@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		6125CFC92D195E3600002C7F /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		616BE5C62E02B59D00538B8B /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		6125CFCB2D195E3600002C7F /* Memorize */ = {
+		616BE5C82E02B59D00538B8B /* Memorize */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Memorize;
 			sourceTree = "<group>";
@@ -19,7 +19,7 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6125CFC62D195E3600002C7F /* Frameworks */ = {
+		616BE5C32E02B59D00538B8B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6125CFC02D195E3600002C7F = {
+		616BE5BD2E02B59D00538B8B = {
 			isa = PBXGroup;
 			children = (
-				6125CFCB2D195E3600002C7F /* Memorize */,
-				6125CFCA2D195E3600002C7F /* Products */,
+				616BE5C82E02B59D00538B8B /* Memorize */,
+				616BE5C72E02B59D00538B8B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6125CFCA2D195E3600002C7F /* Products */ = {
+		616BE5C72E02B59D00538B8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6125CFC92D195E3600002C7F /* Memorize.app */,
+				616BE5C62E02B59D00538B8B /* Memorize.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6125CFC82D195E3600002C7F /* Memorize */ = {
+		616BE5C52E02B59D00538B8B /* Memorize */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6125CFD72D195E3700002C7F /* Build configuration list for PBXNativeTarget "Memorize" */;
+			buildConfigurationList = 616BE5D42E02B59E00538B8B /* Build configuration list for PBXNativeTarget "Memorize" */;
 			buildPhases = (
-				6125CFC52D195E3600002C7F /* Sources */,
-				6125CFC62D195E3600002C7F /* Frameworks */,
-				6125CFC72D195E3600002C7F /* Resources */,
+				616BE5C22E02B59D00538B8B /* Sources */,
+				616BE5C32E02B59D00538B8B /* Frameworks */,
+				616BE5C42E02B59D00538B8B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				6125CFCB2D195E3600002C7F /* Memorize */,
+				616BE5C82E02B59D00538B8B /* Memorize */,
 			);
 			name = Memorize;
 			packageProductDependencies = (
 			);
 			productName = Memorize;
-			productReference = 6125CFC92D195E3600002C7F /* Memorize.app */;
+			productReference = 616BE5C62E02B59D00538B8B /* Memorize.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6125CFC12D195E3600002C7F /* Project object */ = {
+		616BE5BE2E02B59D00538B8B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					6125CFC82D195E3600002C7F = {
+					616BE5C52E02B59D00538B8B = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
-			buildConfigurationList = 6125CFC42D195E3600002C7F /* Build configuration list for PBXProject "Memorize" */;
+			buildConfigurationList = 616BE5C12E02B59D00538B8B /* Build configuration list for PBXProject "Memorize" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 6125CFC02D195E3600002C7F;
+			mainGroup = 616BE5BD2E02B59D00538B8B;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 6125CFCA2D195E3600002C7F /* Products */;
+			productRefGroup = 616BE5C72E02B59D00538B8B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6125CFC82D195E3600002C7F /* Memorize */,
+				616BE5C52E02B59D00538B8B /* Memorize */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6125CFC72D195E3600002C7F /* Resources */ = {
+		616BE5C42E02B59D00538B8B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6125CFC52D195E3600002C7F /* Sources */ = {
+		616BE5C22E02B59D00538B8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		6125CFD52D195E3700002C7F /* Debug */ = {
+		616BE5D22E02B59E00538B8B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		6125CFD62D195E3700002C7F /* Release */ = {
+		616BE5D32E02B59E00538B8B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,20 +244,17 @@
 			};
 			name = Release;
 		};
-		6125CFD82D195E3700002C7F /* Debug */ = {
+		616BE5D52E02B59E00538B8B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Memorize/Preview Content\"";
-				DEVELOPMENT_TEAM = RU99TR44WV;
+				DEVELOPMENT_TEAM = FR24MJSWK9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Memorize;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -268,29 +265,25 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cs193p.terletskyi.igor.memorize;
+				PRODUCT_BUNDLE_IDENTIFIER = terletskyi.Memorize;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		6125CFD92D195E3700002C7F /* Release */ = {
+		616BE5D62E02B59E00538B8B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Memorize/Preview Content\"";
-				DEVELOPMENT_TEAM = RU99TR44WV;
+				DEVELOPMENT_TEAM = FR24MJSWK9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Memorize;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,9 +294,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cs193p.terletskyi.igor.memorize;
+				PRODUCT_BUNDLE_IDENTIFIER = terletskyi.Memorize;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -313,25 +305,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6125CFC42D195E3600002C7F /* Build configuration list for PBXProject "Memorize" */ = {
+		616BE5C12E02B59D00538B8B /* Build configuration list for PBXProject "Memorize" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6125CFD52D195E3700002C7F /* Debug */,
-				6125CFD62D195E3700002C7F /* Release */,
+				616BE5D22E02B59E00538B8B /* Debug */,
+				616BE5D32E02B59E00538B8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6125CFD72D195E3700002C7F /* Build configuration list for PBXNativeTarget "Memorize" */ = {
+		616BE5D42E02B59E00538B8B /* Build configuration list for PBXNativeTarget "Memorize" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6125CFD82D195E3700002C7F /* Debug */,
-				6125CFD92D195E3700002C7F /* Release */,
+				616BE5D52E02B59E00538B8B /* Debug */,
+				616BE5D62E02B59E00538B8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6125CFC12D195E3600002C7F /* Project object */;
+	rootObject = 616BE5BE2E02B59D00538B8B /* Project object */;
 }

@@ -2,21 +2,20 @@
 //  AspectVGrid.swift
 //  Memorize
 //
-//  Created by Igor on 27.12.2024.
+//  Created by Igor Terletskyi on 25.06.2025.
 //
-
 import SwiftUI
 
 struct AspectVGrid<Item: Identifiable, ItemView: View>: View {
     var items: [Item]
-    var aspectRation: CGFloat = 1
+    var aspectRatio: CGFloat = 1
     var content: (Item) -> ItemView
     
     init(_ items: [Item],
-         aspectRation: CGFloat,
+         aspectRatio: CGFloat,
          @ViewBuilder content: @escaping (Item) -> ItemView) {
         self.items = items
-        self.aspectRation = aspectRation
+        self.aspectRatio = aspectRatio
         self.content = content
     }
     
@@ -24,11 +23,11 @@ struct AspectVGrid<Item: Identifiable, ItemView: View>: View {
         GeometryReader { geometry in
             let gridItemSize = gridItemWidthThatFits(count: items.count,
                                                      size: geometry.size,
-                                                     atAspectRation: aspectRation)
+                                                     atAspectRatio: aspectRatio)
             LazyVGrid(columns: [GridItem(.adaptive(minimum: gridItemSize), spacing: 0)], spacing: 0) {
                 ForEach(items) { item in
                     content(item)
-                        .aspectRatio(aspectRation, contentMode: .fit)
+                        .aspectRatio(aspectRatio, contentMode: .fit)
                 }
             }
         }
@@ -36,13 +35,13 @@ struct AspectVGrid<Item: Identifiable, ItemView: View>: View {
     
     private func gridItemWidthThatFits(count: Int,
                                size: CGSize,
-                               atAspectRation aspectRation: CGFloat) -> CGFloat {
+                               atAspectRatio aspectRatio: CGFloat) -> CGFloat {
         let count = CGFloat(count)
         var colomnCount = 1.0
         
         repeat {
             let width = size.width / colomnCount
-            let height = width / aspectRation
+            let height = width / aspectRatio
             
             let rowCount = (count / colomnCount).rounded(.up)
             
@@ -52,11 +51,7 @@ struct AspectVGrid<Item: Identifiable, ItemView: View>: View {
             
             colomnCount += 1
         } while colomnCount < count
-        
-        return min(size.width / count, size.height * aspectRation.rounded(.down))
+        print(size.width / count," - ", size.height * aspectRatio.rounded(.down), " - " , size.width)
+        return max(size.width / count, size.height * aspectRatio.rounded(.down))
     }
 }
-
-//#Preview {
-//    AspectVGrid()
-//}
